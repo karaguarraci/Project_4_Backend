@@ -40,3 +40,23 @@ class RestaurantDetailView(APIView):
         restaurant = self.get_restaurant(pk=pk)
         serialized_single_restaurant = RestaurantSerializer(restaurant)
         return Response(serialized_single_restaurant.data, status=status.HTTP_200_OK)
+    
+    def put(self, request, pk):
+        restaurant_to_edit = self.get_restaurant(pk=pk)
+        updated_restaurant = RestaurantSerializer(restaurant_to_edit, data=request.data)
+        try:
+            updated_restaurant.is_valid()
+            updated_restaurant.save()
+            return Response(updated_restaurant.data, status=status.HTTP_202_ACCEPTED)
+        except AssertionError as e:
+            return Response({"detail": str(e)}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+        except:
+            return Response({"detail": "Unprocessible Entity"}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+        
+    def delete(self, _request, pk):
+        restaurant_to_delete = self.get_restaurant(pk=pk)
+        restaurant_to_delete.delete()
+        return Response(status=status.HTTP_404_NOT_FOUND)
+
+        
+        
