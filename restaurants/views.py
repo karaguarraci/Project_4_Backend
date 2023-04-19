@@ -6,12 +6,13 @@ from rest_framework.exceptions import NotFound
 
 from .models import Restaurant
 from .serializers.common import RestaurantSerializer
+from .serializers.populated import PopulatedRestaurantSerializer
 
 class RestaurantListView(APIView):
 
     def get(self, _request):
         restaurants = Restaurant.objects.all()
-        serialized_restaurants = RestaurantSerializer(restaurants, many=True)
+        serialized_restaurants = PopulatedRestaurantSerializer(restaurants, many=True)
         return Response(serialized_restaurants.data, status=status.HTTP_200_OK)
 
     def post(self, request):
