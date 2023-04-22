@@ -1,0 +1,332 @@
+[
+{
+  "model": "reviews.review",
+  "pk": 1,
+  "fields": {
+    "restaurant": 8,
+    "rating": 5,
+    "comment": "Lovely place, people and food also dog friendly",
+    "created_at": "2023-04-22T11:14:07.833Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 2,
+  "fields": {
+    "restaurant": 8,
+    "rating": 4,
+    "comment": "If your looking for a quick bite to eat and a cold beer with a view, then Billy's isn't a bad place to do this, food portions are a bit small for the prices though and wooden cutlery is flimsy with certain foods. Other than that it's a lovely atmosphere staff are polite and offer free parking for customers with a ticket available at the bar, oh! And its dog friendly 😁",
+    "created_at": "2023-04-22T11:15:07.745Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 3,
+  "fields": {
+    "restaurant": 8,
+    "rating": 5,
+    "comment": "Lovely food crab tacos and mussels were unreal, amazing spot right on the beach and dog friendly",
+    "created_at": "2023-04-22T11:16:08.571Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 4,
+  "fields": {
+    "restaurant": 7,
+    "rating": 5,
+    "comment": "Food lovely and dog friendly",
+    "created_at": "2023-04-22T11:16:45.244Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 5,
+  "fields": {
+    "restaurant": 7,
+    "rating": 4,
+    "comment": "Lovely views, excellent food and the undercover area is really useful. Very dog friendly",
+    "created_at": "2023-04-22T11:17:06.001Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 6,
+  "fields": {
+    "restaurant": 7,
+    "rating": 5,
+    "comment": "Lovely views for a coffee and dog friendly. Haven't eaten here yet but the food looks lovely",
+    "created_at": "2023-04-22T11:17:30.597Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 7,
+  "fields": {
+    "restaurant": 6,
+    "rating": 5,
+    "comment": "Lovely food, dog friendly, plenty of seats",
+    "created_at": "2023-04-22T11:18:10.736Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 8,
+  "fields": {
+    "restaurant": 6,
+    "rating": 5,
+    "comment": "What a great place to eat. An excellent choice of food at reasonable prices. Very friendly, and helpful, staff and dog friendly too.\r\nAs soon as we entered we were asked if we had any special dietary requirements, and if we wanted to see a vegan menu.\r\nComplimentary water and treats were made available for our dog (who will never say no to food). Thoroughly recommended.",
+    "created_at": "2023-04-22T11:18:49.807Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 9,
+  "fields": {
+    "restaurant": 6,
+    "rating": 4,
+    "comment": "Decent menu of both food and drinks, good atmosphere, dog friendly.",
+    "created_at": "2023-04-22T11:19:21.703Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 10,
+  "fields": {
+    "restaurant": 5,
+    "rating": 5,
+    "comment": "The fat badger is one of my favourite places to go to eat or just have a casual pint. In the summer on the balcony is amazing. You will NOT want to leave. Views of Portland and the Jurassic coast, stretching out to sea as far as the eye can see. Then in the fields deer and wildlife. Its dog friendly. It is absolutely my favourite place in the summer. Foods great, a huge range of drinks. You have to check it out! Just don't steal all the outside seats when I want to go there!",
+    "created_at": "2023-04-22T11:20:06.625Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 11,
+  "fields": {
+    "restaurant": 5,
+    "rating": 5,
+    "comment": "Amazing view, amazing food and great staff. Loads of vegan options and is dog friendly!",
+    "created_at": "2023-04-22T11:20:31.224Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 12,
+  "fields": {
+    "restaurant": 5,
+    "rating": 5,
+    "comment": "Dog friendly, good cake and amazing views!",
+    "created_at": "2023-04-22T11:20:53.045Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 13,
+  "fields": {
+    "restaurant": 4,
+    "rating": 5,
+    "comment": "Great gluten free menu and dog friendly",
+    "created_at": "2023-04-22T11:21:54.230Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 14,
+  "fields": {
+    "restaurant": 4,
+    "rating": 5,
+    "comment": "Very vibrant & youthful atmosphere & a great place to find food if you have intolerances, allergies, vegan or vegetarian or want to bring your dogs. Really tasty coffee (even the decaf with oat milk), freshly squeezed orange juice available & treats for the dogs. They even will give you a water bowl for your dog if you've forgotten yours. We only waited 5 minutes for a table even though it was busy & service was very quick. Parking might be tricky as it is on street, but well worth it if you can get here!",
+    "created_at": "2023-04-22T11:22:23.596Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 15,
+  "fields": {
+    "restaurant": 4,
+    "rating": 5,
+    "comment": "Took the family and our dog for brunch, very friendly staff and food was very nice. Very accommodating for gluten free diet and dog treats!!",
+    "created_at": "2023-04-22T11:22:54.819Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 16,
+  "fields": {
+    "restaurant": 3,
+    "rating": 5,
+    "comment": "Really nice bar and restaurant food is spot on! lovely surroundings staff are friendly beer is good too 😀 would recommend to anyone! Also dog friendly which is an added bonus!",
+    "created_at": "2023-04-22T11:23:31.271Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 17,
+  "fields": {
+    "restaurant": 3,
+    "rating": 2,
+    "comment": "We booked and came on the day they opened after Christmas. There were a few things not available on the menu and then the killjoy, the Chef could not guarantee any fried items, normally ok for anyone with a crustacean allergy, would be ok for me to eat because the fryer wasn't cleaned properly. Did not present any alternatives and that did not leave me with many options to choose from and we sadly had to look for and book another place for lunch.\r\n\r\nThe young lady serving us tried very hard, and they were all very friendly towards our dog as well. I think we chose a day when they were not at their best.\r\n\r\nThen again, if you are open, you should be, right?",
+    "created_at": "2023-04-22T11:24:14.618Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 18,
+  "fields": {
+    "restaurant": 3,
+    "rating": 4,
+    "comment": "Great spot, nice food and drinks and really good service. They are also dog friendly.",
+    "created_at": "2023-04-22T11:24:41.597Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 19,
+  "fields": {
+    "restaurant": 2,
+    "rating": 5,
+    "comment": "Friendly again today as ever. Dog friendly and welcoming atmosphere. Hot chocolate hit the mark too!",
+    "created_at": "2023-04-22T11:25:10.794Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 20,
+  "fields": {
+    "restaurant": 2,
+    "rating": 5,
+    "comment": "Dog friendly with some decent beers",
+    "created_at": "2023-04-22T11:25:27.267Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 21,
+  "fields": {
+    "restaurant": 2,
+    "rating": 5,
+    "comment": "Friendly staff, happy with dogs, lovely location, very pleasant inside. Riverside beer garden",
+    "created_at": "2023-04-22T11:25:48.276Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 22,
+  "fields": {
+    "restaurant": 1,
+    "rating": 5,
+    "comment": "Dog friendly, great food, excellent service.",
+    "created_at": "2023-04-22T11:26:10.471Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 23,
+  "fields": {
+    "restaurant": 1,
+    "rating": 5,
+    "comment": "Dog friendly and always a treat.",
+    "created_at": "2023-04-22T11:26:26.541Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 24,
+  "fields": {
+    "restaurant": 1,
+    "rating": 4,
+    "comment": "Good food, dog friendly and good service",
+    "created_at": "2023-04-22T11:26:44.466Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 25,
+  "fields": {
+    "restaurant": 9,
+    "rating": 5,
+    "comment": "Super easy location near Waterloo and Southbank. Very friendly staff. Amazing food. Dog friendly too!",
+    "created_at": "2023-04-22T11:31:08.173Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 26,
+  "fields": {
+    "restaurant": 9,
+    "rating": 3,
+    "comment": "Not bad food, pizzas were ok and decent beer. Dog friendly. Really noisy though, so hard to talk with your dinner companions.",
+    "created_at": "2023-04-22T11:31:31.834Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 27,
+  "fields": {
+    "restaurant": 9,
+    "rating": 5,
+    "comment": "Dog friendly great food wonderful service!",
+    "created_at": "2023-04-22T11:31:51.417Z",
+    "owner": 4
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 28,
+  "fields": {
+    "restaurant": 10,
+    "rating": 4,
+    "comment": "I've eaten in The Orchard many times and it's always a constant and good choice of venue for Sunday lunch or a mid-week meal which keeps us coming back. I like the atmosphere, decor and the team are friendly and generally attentive although sometimes there is a bit of a wait on food when they're busy. It's dog friendly which is a plus. If you're looking for a venue in Brockley then you can't go wrong with The Orchard. Recommended.",
+    "created_at": "2023-04-22T11:34:36.068Z",
+    "owner": 2
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 29,
+  "fields": {
+    "restaurant": 10,
+    "rating": 5,
+    "comment": "Amazing food! And dogs are allowed inside❤",
+    "created_at": "2023-04-22T11:35:04.204Z",
+    "owner": 3
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 30,
+  "fields": {
+    "restaurant": 10,
+    "rating": 5,
+    "comment": "Friendly efficient service, warm atmosphere, good choice of veggie and vegan",
+    "created_at": "2023-04-22T11:35:29.984Z",
+    "owner": 4
+  }
+}
+]

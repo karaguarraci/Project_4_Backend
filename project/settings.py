@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'restaurants',
     'dog_friendly',
-    'jwt_auth'
+    'jwt_auth',
+    'reviews'
 ]
 
 MIDDLEWARE = [
@@ -104,6 +105,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'jwt_auth.authentication.JWTAuthentication'
+    ]
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/

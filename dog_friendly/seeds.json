@@ -1,0 +1,90 @@
+[
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 1,
+  "fields": {
+    "restaurant": 1,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": false,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 2,
+  "fields": {
+    "restaurant": 2,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": true,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 3,
+  "fields": {
+    "restaurant": 3,
+    "provides_water_bowls": true,
+    "provides_treats": false,
+    "has_doggy_menu": false,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 4,
+  "fields": {
+    "restaurant": 4,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": true,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 5,
+  "fields": {
+    "restaurant": 5,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": false,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 6,
+  "fields": {
+    "restaurant": 6,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": false,
+    "extras": ""
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 7,
+  "fields": {
+    "restaurant": 7,
+    "provides_water_bowls": true,
+    "provides_treats": false,
+    "has_doggy_menu": false,
+    "extras": "Provides Blankets"
+  }
+},
+{
+  "model": "dog_friendly.dogfriendly",
+  "pk": 8,
+  "fields": {
+    "restaurant": 8,
+    "provides_water_bowls": true,
+    "provides_treats": true,
+    "has_doggy_menu": true,
+    "extras": ""
+  }
+}
+]

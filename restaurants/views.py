@@ -3,12 +3,14 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.db import IntegrityError
 from rest_framework.exceptions import NotFound 
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from .models import Restaurant
 from .serializers.common import RestaurantSerializer
 from .serializers.populated import PopulatedRestaurantSerializer
 
 class RestaurantListView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get(self, _request):
         restaurants = Restaurant.objects.all()
@@ -30,6 +32,7 @@ class RestaurantListView(APIView):
             return Response({"detail": str(e)}, status=status.HTTP_422_UNPROCESSABLE_ENTITY) 
         
 class RestaurantDetailView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def get_restaurant(self, pk):
         try:

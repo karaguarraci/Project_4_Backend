@@ -1,0 +1,142 @@
+[
+{
+  "model": "restaurants.restaurant",
+  "pk": 1,
+  "fields": {
+    "name": "The Locksbrook Inn",
+    "city": "BATH",
+    "county": "Somerset",
+    "address": "The Locksbrook Inn, 103 Locksbrook Rd, Bath BA1 3EN",
+    "description": "Open for breakfast, coffee & smoothies, drinks, lunch, evening meals and grazing in between. Join us for brunch and Sunday lunch. Food served 12pm – 9.30pm Monday – Thursday, 8.30am -9.30pm Friday & Saturday and 8.30am – 8pm on Sundays",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/c7/a7/57/the-locksbrook-inn.jpg",
+    "website": "https://www.thelocksbrookinn.com/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 2,
+  "fields": {
+    "name": "The Boathouse",
+    "city": "BATH",
+    "county": "Somerset",
+    "address": "The Boathouse Pub Restaurant & Accommodation, Bath, Newbridge Rd, Bath BA1 3NB",
+    "description": "Situated on the banks of the river Avon, The Boathouse is one of the best country pubs near Bath.\r\n\r\nEnjoy picturesque countryside views while relaxing by the river in our lovely pub garden. Or head inside, where the traditional interior boasts roaring log fires and plenty of places to eat, drink and unwind.",
+    "image": "https://www.boathouse-bath.co.uk/hallandwoodhouse/uploads/sites/18/2022/08/Banner-image-video-1sjk.jpg?format=auto",
+    "website": "https://www.boathouse-bath.co.uk/?utm_source=local&utm_medium=organic&utm_content=gmb",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 3,
+  "fields": {
+    "name": "The Botanist Bar & Restaurant",
+    "city": "BATH",
+    "county": "Somerset",
+    "address": "The Botanist Bar & Restaurant Bath, THE OCTAGON (NO 25 Part 46A Milsom Place & 28, Milsom St, Bath BA1 1BZ",
+    "description": "All are welcome to join us... our bar & outside terrace areas are also dog friendly",
+    "image": "https://i2-prod.somersetlive.co.uk/incoming/article2673420.ece/ALTERNATES/s1200b/0_JS178058743.jpg",
+    "website": "https://thebotanist.uk.com/locations/bath?utm_medium=organic&utm_source=gmb&utm_campaign=gmb_main&utm_content=website&utm_term=bath",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 4,
+  "fields": {
+    "name": "Velo Lounge",
+    "city": "BATH",
+    "county": "Somerset",
+    "address": "Velo Lounge, 30 Moorland Rd, Bath BA2 3PW",
+    "description": "Lounges was founded in 2002 by a trio of longstanding friends, Dave Reid, Alex Reilley and Jake Bishop. Having spent years in the restaurant and bar trade – not to mention just as many propping up the bars in Bristol (all of course in the name of research) – they decided it was time they did their own thing. The motivation was simple and very selfish; they wanted somewhere to drink themselves.\r\nOur menus reflect our personality. We take food really seriously, using the best fresh produce in really creative dishes, but we also make sure our menus are about pleasure, indulgence, and fun! A bit like us.",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/bd/bd/41/velo-lounge.jpg",
+    "website": "https://thelounges.co.uk/velo/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 5,
+  "fields": {
+    "name": "The Fat Badger",
+    "city": "Weymouth",
+    "county": "Dorset",
+    "address": "The Fat Badger, 90 Camp Rd, Weymouth DT4 9HF",
+    "description": "We are proud to serve you the best local food and dishes, always garnished with a lot of love. Have a great time at a modern but traditional restaurant close to the coast of weymouth.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHhkquy8Ihms_HxbUqnb3FVRKHPG4w8GY-hw&usqp=CAU",
+    "website": "https://fatbadgerweymouth.co.uk/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 6,
+  "fields": {
+    "name": "Nautico Lounge",
+    "city": "Weymouth",
+    "county": "Dorset",
+    "address": "Nautico Lounge, 66 St Thomas St, Weymouth DT4 8EL",
+    "description": "Lounges was founded in 2002 by a trio of longstanding friends, Dave Reid, Alex Reilley and Jake Bishop. Having spent years in the restaurant and bar trade – not to mention just as many propping up the bars in Bristol (all of course in the name of research) – they decided it was time they did their own thing. The motivation was simple and very selfish; they wanted somewhere to drink themselves.\r\nOur menus reflect our personality. We take food really seriously, using the best fresh produce in really creative dishes, but we also make sure our menus are about pleasure, indulgence, and fun! A bit like us.",
+    "image": "https://www.dorsetecho.co.uk/resources/images/4656225/?type=responsive-gallery-fullscreen",
+    "website": "https://thelounges.co.uk/nautico/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 7,
+  "fields": {
+    "name": "Lookout Cafe",
+    "city": "Weymouth",
+    "county": "Dorset",
+    "address": "Lookout Cafe, Bowleaze Coveway, Weymouth DT3 6PL",
+    "description": "A cafe with views of the sea. Big outside area with outdoor picnic benches and indoor seating.",
+    "image": "https://property-images-cdn.sykesassets.co.uk/images/property_images/750x562/994500/sc_1543324263_994500_27.jpg?access=4464T3049T840",
+    "website": null,
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 8,
+  "fields": {
+    "name": "Billy Winters",
+    "city": "Weymouth",
+    "county": "Dorset",
+    "address": "Billy Winters Beach Bar + Diner, Ferry Bridge Boatyard, Portland Beach Rd, Weymouth DT4 9JZ",
+    "description": "Billy Winter’s is a beach bar & diner located (you guessed it!) on the beach, with stunning views across Weymouth Bay and beyond.\r\nWe have tried to create a chilled-out, beach,  no-rush and ecliptic vibe. Bubble & Squeak for dinner? Pizza for breakfast? However you would like to order, is fine with us!",
+    "image": "https://billywinters.co.uk/wp-content/uploads/2018/08/billy-winters-facebook-generic-600x600.png",
+    "website": "https://billywinters.co.uk/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 9,
+  "fields": {
+    "name": "The Green Room",
+    "city": "London",
+    "county": "Greater London",
+    "address": "The Green Room, 101 Upper Ground, London SE1 9PP",
+    "description": "A neighbourhood Bar, Restaurant & Garden\r\nThe Green Room is a bar and restaurant tucked away on the South Bank, with a beautiful covered garden and a prime location a few minutes’ walk from Waterloo station.\r\nJoin us for an all-day menu that features timeless classics and handmade pizzas, or an extensive drinks list with signature cocktails and classic twists that show off the skill of our bartenders..  We host a much-loved bottomless brunch every Saturday and on Sundays join us for our Roasts.\r\nWe’re dog-friendly, both inside and outside.\r\nMenus",
+    "image": "https://images.squarespace-cdn.com/content/v1/5efe36bd898fb81c1494cfd6/1642436625189-PC9VLA8BKK0OIZNB7VY3/XMASLIGHTS-8921.jpg?format=2500w",
+    "website": "https://www.grlondon.co.uk/",
+    "is_dog_friendly": true
+  }
+},
+{
+  "model": "restaurants.restaurant",
+  "pk": 10,
+  "fields": {
+    "name": "The Orchard",
+    "city": "London",
+    "county": "Greater London",
+    "address": "The Orchard London, 5 Harefield Rd, London SE4 1LW",
+    "description": "THE ORCHARD IS AN INDEPENDENTLY OWNED BAR AND RESTAURANT IN THE HEART OF BROCKLEY, set up in 2009 by Edmund Bing and Emily Conway. With both relaxed lounge and dining areas we welcome customers for everything from a morning coffee, an early evening drink or a three course meal.\r\nWe serve brunch, lunch and dinner all prepared from scratch in our kitchens using fresh, seasonal ingredients. We love our drinks too and serve Caravan coffee, craft beers on tap and in the bottle, a great selection of wines and lovingly prepared cocktails.\r\n\r\nWe’re really proud of what we’ve created and always want to make The Orchard better so please feel free to drop us an EMAIL WITH ANY FEEDBACK. It will go directly to us and we’ll respond as quickly as we can.",
+    "image": "https://thebrockleyorchard.com/images/gallery_8.jpg",
+    "website": "https://thebrockleyorchard.com/index.html",
+    "is_dog_friendly": true
+  }
+}
+]

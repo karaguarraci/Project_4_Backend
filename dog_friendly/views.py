@@ -3,12 +3,14 @@ from rest_framework.response import Response
 from rest_framework.exceptions import NotFound 
 from rest_framework import status
 from django.db import IntegrityError
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from .models import DogFriendly
 from .serializers.common import DogFriendlySerializer
 from .serializers.populated import PopulatedDogFriendlySerializer
 
 class DogFriendlyListView(APIView):
+    permission_classes = (IsAuthenticatedOrReadOnly, )
     
     def get(self, _request):
         dog_friendly_info = DogFriendly.objects.all()
@@ -32,12 +34,13 @@ class DogFriendlyListView(APIView):
             return Response({"detail": "Unprocessible Entity"}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
         
 class DogFriendlyDetailView(APIView):
+        permission_classes = (IsAuthenticatedOrReadOnly, )
         
         def get_dog_friendly_info(self, pk):
             try:
                 return DogFriendly.objects.get(pk=pk)
             except DogFriendly.DoesNotExist:
-                raise NotFound(detail="can not find a restaurant with that primary key")
+                raise NotFound(detail="can not find a dog friendly info with that primary key")
             
         def get(self, _request, pk):
             dog_friendly_info = self.get_dog_friendly_info(pk=pk)

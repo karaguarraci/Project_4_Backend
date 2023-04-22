@@ -4,8 +4,11 @@ class Restaurant(models.Model):
     name = models.CharField(max_length=50)
     city = models.CharField(max_length=50)
     county = models.CharField(max_length=50)
-    # dog_friendly = models.ForeignKey('dog_friendly.DogFriendly', related_name='restaurant', on_delete=models.CASCADE)
-    rating = models.DecimalField(max_digits=3, decimal_places=2, null=True, blank=True)
+    address = models.CharField(blank=True, max_length=300)
+    description = models.TextField(blank=True)
+    image = models.URLField(blank=True)
+    website = models.URLField(blank=True, null=True)
+    is_dog_friendly = models.BooleanField(default=False)
     
     
     def __str__(self):
