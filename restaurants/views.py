@@ -14,6 +14,7 @@ class RestaurantListView(APIView):
 
     def get(self, _request):
         restaurants = Restaurant.objects.all()
+        print(f"here restaurant data ${restaurants}")
         serialized_restaurants = PopulatedRestaurantSerializer(restaurants, many=True)
         return Response(serialized_restaurants.data, status=status.HTTP_200_OK)
 
@@ -42,7 +43,7 @@ class RestaurantDetailView(APIView):
         
     def get(self, _request, pk):
         restaurant = self.get_restaurant(pk=pk)
-        serialized_single_restaurant = RestaurantSerializer(restaurant)
+        serialized_single_restaurant = PopulatedRestaurantSerializer(restaurant)
         return Response(serialized_single_restaurant.data, status=status.HTTP_200_OK)
     
     def put(self, request, pk):

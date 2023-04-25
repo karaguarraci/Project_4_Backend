@@ -9,6 +9,7 @@ class Restaurant(models.Model):
     image = models.URLField(blank=True)
     website = models.URLField(blank=True, null=True)
     is_dog_friendly = models.BooleanField(default=False)
+   
     
     
     def __str__(self):
