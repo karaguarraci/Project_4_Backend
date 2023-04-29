@@ -25,6 +25,7 @@ urlpatterns = [
     path('dog_friendly/', include('dog_friendly.urls')),
     path('auth/', include('jwt_auth.urls')),
     path('reviews/', include('reviews.urls')),
+    path('favourites/', include('favourites.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

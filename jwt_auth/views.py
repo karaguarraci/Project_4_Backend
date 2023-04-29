@@ -6,8 +6,11 @@ from datetime import datetime, timedelta
 from django.contrib.auth import get_user_model
 from django.conf import settings 
 import jwt
+from .models import User
+from rest_framework.exceptions import NotFound
 
 from .serializers.common import UserSerializer
+from .serializers.populated import PopulatedUserSerializer
 User = get_user_model()
 
 class RegisterView(APIView):
@@ -44,3 +47,16 @@ class LoginView(APIView):
             algorithm='HS256'
         )
         return Response({ 'token': token, 'message': f"Welcome back {user_to_login.username}"})
+    
+class UserDetailView(APIView):
+    
+    def get_user(self, pk):
+        try:
+            return User.objects.get(pk=pk)
+        except User.DoesNotExist:
+            raise NotFound(detail="can not find user with that primary key")
+        
+    def get(self, _request, pk):
+        user = self.get_user(pk=pk)
+        serialized_user = PopulatedUserSerializer(user)
+        return Response(serialized_user.data, status=status.HTTP_200_OK)

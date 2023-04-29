@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'dog_friendly',
     'jwt_auth',
     'reviews',
-    'corsheaders'
+    'corsheaders',
+    'favourites'
 ]
 
 MIDDLEWARE = [
