@@ -8,5 +8,5 @@ class Favourite(models.Model):
         related_name='favourites', 
         on_delete=models.CASCADE)
 
-def __str__(self):
-    return f'{self.owner.username} - {self.restaurant.name}'    
+    def __str__(self):
+        return f'{self.owner.username} - {self.restaurant.name}'    
