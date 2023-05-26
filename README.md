@@ -12,6 +12,18 @@ Feel free to use these credentials to sign in:
 - Password: Password!1
 
 ## Application Visuals
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/858e1ae9-0855-4940-aa81-9bd7bcc0da23" width="300">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/ef5ef2f3-8b54-4982-a399-ce0c34e4c820" width="300">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/2eb800b4-a83d-4b58-9a29-39703d507294" width="300">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/9f59a3dd-a350-40eb-b6bf-6d98994ce41b" width="300">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/82f212bd-06e2-4a03-88cc-73e8b8dfb0d1" width="300">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/7b6cf3d4-aa1f-4b21-80c5-1a0e6967c0ad" width="300">
+
+## Responsive Design
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/29d48b89-b1b9-4c2a-a3f1-1155ee9f15f4" width="200">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/131e3629-d162-4292-96e8-24eac83028e6" width="200">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/ae3da335-afa3-4082-8c76-0fba8b15cb58" width="200">
+<img src="https://github.com/karaguarraci/Project_4_Backend/assets/115991254/290a2bf9-e2e1-40c0-b228-a8a4388726ac" width="200">
 
 ## Tech Stack
 #### Frontend
